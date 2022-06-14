@@ -1,3 +1,10 @@
 # Pairs - Memory Game
 
-In this project, I'll be creating a classic game that we all so dearly loved when we were children. There will be a selection of cards flipped over, and the player needs to select two cards in order to turn them over to see if they match. If the cards match, the player earns 2 points and those cards remain facing up. If the player selects two cards that do not match, the cards will be turned back around and that turn would end. 
+In this project, I'll be creating a single-player version of a classic family card game that we all loved when we were children. It's suitable for players of all ages as all it requires is the ability to memorise. 
+
+
+Things to remember:
+
+- The selection of cards need to be shuffled and flipped upside-down so the player cannot see the images on the cards. 
+- The player needs to select two of the cards to turn them over to check if they match. If the cards match, the player earns 2 points and those cards remain facing up. 
+- If the player selects two cards that do not match, the cards will be turned back around and that turn would end. 
