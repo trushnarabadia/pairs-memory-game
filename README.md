@@ -1,1 +1,3 @@
-# pairs-memory-game
+# Pairs - Memory Game
+
+In this project, I'll be creating a classic game that we all so dearly loved when we were children. There will be a selection of cards flipped over, and the player needs to select two cards in order to turn them over to see if they match. If the cards match, the player earns 2 points and those cards remain facing up. If the player selects two cards that do not match, the cards will be turned back around and that turn would end. 
