@@ -14,8 +14,8 @@ In this project, I'll be creating a single-player version of a classic family ca
 
 For this project I am using:
 
-- [React](https://reactjs.org/) for the frontend.
-- [Node](https://nodejs.org/en/) for the back-end.
+- [React](https://reactjs.org/)
+- [Node](https://nodejs.org/en/)
 
 
 #
