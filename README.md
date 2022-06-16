@@ -3,6 +3,10 @@
 In this project, I'll be creating a single-player version of a classic family card game that we all loved when we were children. It's suitable for players of all ages as all it requires is the ability to memorise. 
 
 
+## PLEASE NOTE:
+This project is not yet finished due to time constraints, I am yet to hide each card and have the ability to click on each one to be able to turn them right-side up. Then also ensuring that those cards match. 
+
+
 ## Things to remember:
 
 - The selection of cards need to be shuffled and flipped upside-down so the player cannot see the images on the cards. 
