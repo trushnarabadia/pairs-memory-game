@@ -20,6 +20,7 @@ For this project I am using:
 
 - [React](https://reactjs.org/)
 - [Node](https://nodejs.org/en/)
+- [Jest](https://jestjs.io/)
 
 
 #
