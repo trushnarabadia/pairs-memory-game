@@ -25,10 +25,14 @@ function Cards(){
         { id: 10, img: '/img/strawberry.jpeg', stat: "" },
     ].sort(() => Math.random() - 0.3))
 
+        function handleClick(id){
+            alert(id)
+        }
+
     return (
         <div className="container">
             { items.map((item, index) => (
-                <Card key={index} item={item} />
+                <Card key={index} item={item} id={index} handleClick={handleClick} />
             ))}
         </div>
     )
