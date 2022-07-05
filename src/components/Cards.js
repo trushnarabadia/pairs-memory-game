@@ -28,8 +28,9 @@ function Cards(){
     const [last, setLast] = useState(-1)
 
     function handleClick(id){
-        items[id].stat = "current"
-        setItems([...items])
+        if(prev === -1){
+            setPrev(id)
+        }
         
     }
 
