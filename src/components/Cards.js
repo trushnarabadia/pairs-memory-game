@@ -25,9 +25,13 @@ function Cards(){
         { id: 10, img: '/img/strawberry.jpeg', stat: "" },
     ].sort(() => Math.random() - 0.3))
 
-        function handleClick(id){
-            alert(id)
-        }
+    const [last, setLast] = useState(-1)
+
+    function handleClick(id){
+        items[id].stat = "current"
+        setItems([...items])
+        
+    }
 
     return (
         <div className="container">
