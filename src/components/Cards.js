@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Card from './Card'
+export default Cards
 
 function Cards(){
     const [items, setItems] = useState([ 
@@ -27,9 +28,18 @@ function Cards(){
 
     const [last, setLast] = useState(-1)
 
+    function check(current){
+        if(items[current].id == items[last].id){
+            items[current].stat = "selected"
+            items[last].stat = "selected"
+            setLast(-1)
+        }
+
     function handleClick(id){
-        if(prev === -1){
-            setPrev(id)
+        if(last === -1){
+            setLast(id)
+        }else{
+            check(id)
         }
         
     }
@@ -41,6 +51,4 @@ function Cards(){
             ))}
         </div>
     )
-};
-
-export default Cards; 
+}
